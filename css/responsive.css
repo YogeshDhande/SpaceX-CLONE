@@ -1,0 +1,340 @@
+@media (max-width:1124px) {
+    .desktop-menu{
+        display: none;
+    }
+    .mobile-only{
+        display: block;
+    }
+    .mobile-menu ul{
+        padding: 60px 50px 10px 50px;
+    }
+    .mobile-menu ul li{
+        margin-bottom: 18px;
+        font-size: 17px;
+        padding-bottom: 5px;
+    }
+}
+@media (max-width:960px) {
+    .stats{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+}
+@media (max-width:840px) {
+    .falcon-info{
+        grid-template-columns: 1fr;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .falcon-info .right-info{
+        height: 400px;
+    }
+    .heavy-info .right-info{
+        width: 500px;
+    }
+    .heavy-info .right-info video{
+        height: 80vh;
+        width: 80%;
+    }
+    .section-mer{
+        height: 150vh;
+        background-size:unset;
+        background-position:top;
+    }
+    .section-mer .section-inner{
+        bottom: 150px;
+        top: 35%;
+        left: 20px;
+        max-width: 500px;
+    }
+    .img-container .img-slides{
+        object-fit: cover;
+        background-position: center;
+    }
+    .img-container .img-slides img{
+        height: 100vh;
+    }
+    img.fal-desktop-img{
+        display: none;
+    }
+    .img-slides img.mobile-img{
+        display: block;
+    }
+    .starship-info{
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+    div.heading{
+        padding: 60px;
+    }
+    .rideshare-stat-info {
+        gap: 1rem;
+        padding: 20px;
+    }
+}
+@media (max-width:780px) {
+    .rideshare-stat-info {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3rem;
+    }
+}
+@media (max-width:601px) {
+    .logo{
+        margin: auto;
+    }
+    .section-inner{
+        bottom: 75px;
+        left: 20px;
+    }
+    .section-inner h2{
+        font-size: 40px;
+    }
+    .section-mer .section-inner p {
+        font-size: 22px;
+    }
+    .section-mer .section-inner {
+        max-width: 400px;
+    }
+    .falcon-info{
+        padding: 15px;
+    }
+    .falcon-info .left-info h3 {
+        font-size: 40px;
+    }
+    .falcon-info .left-info p{
+        font-size: 17px;
+    }
+    .heavy-info .right-info{
+        width: 400px;
+    }
+    .stats div .counter{
+        font-size: 70px;
+    }
+    .stats div .counter-para{
+        margin: -15px;
+        font-size: 14px;
+    }
+    .user-guide .v-border {
+        width: 300px;
+    }
+    .user-guide p {
+        font-size: 16px;
+    }
+    .user-guide .btn{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .img-container .img-slides h3 {
+        font-size: 15px;
+    }
+    .img-container .img-slides h3 {
+        padding: 30px 80px;
+    }
+    .btns.prev{
+        left: 20px;
+    }
+    .btns.next{
+        right: 20px;
+    }
+    .section-tospace .dragon-human{
+        top: 120px;
+        right: auto;
+        max-width: 400px;
+        padding-left: 20px;
+    }
+    .section-ride .dragon-human{
+        top: 80px;
+        left: 20px;
+    }
+    .section-ride .dragon-human h2{
+        font-size: 40px;
+    }
+    .section-mars .dragon-human,
+    .section-satellite .dragon-human{
+        left: 100px;
+    }
+    footer ul li:first-child{
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+    } 
+    footer ul li{
+        margin-right: 15px;
+    }
+    .launches-stat{
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+    .landing p{
+        font-size: 18px;
+        width: 90%;
+    }
+}
+@media (max-width:400px) {
+    .mobile-menu{
+        width: 230px;
+    }
+    .mobile-menu ul li{
+        margin-bottom: 16px;
+        font-size: 14px;
+        padding-bottom: 6px;
+    }
+    .section-mer .section-inner p {
+        font-size: 18px;
+        width: 320px;
+    }
+    .section-mer .section-inner {
+        max-width: 300px;
+    }
+    .heavy-info .right-info{
+        width: 300px;
+    }
+    .inner-section h3{
+        font-size: 55px;
+    }
+    .inner-section p {
+        font-size: 17px;
+    }
+    .stats div .counter{
+        font-size: 60px;
+    }
+    .btns{
+       top: 50%;
+    }
+    .stats div .counter-para{
+        margin-top: 3px;
+        font-size: 12px;
+    }
+    .user-guide .v-border {
+        width: 200px;
+    }    
+    footer ul li{
+        padding: 8px 0;
+    }
+    .falcon-info .right-info img.dragon-video{
+        height: 80%;
+    }
+    .starship-info{
+        padding: 30px;
+        margin: 4rem 0;
+    }
+    .starship-info p{
+        font-size: 16px;
+    }
+       div.heading{
+        font-size: 22px;
+        padding: 30px;
+    }
+    .rideshare-stat-info .heads {
+        font-size: 20px;
+    }
+    .section-ride .dragon-human{
+        top: 50px;
+        left: auto;
+    }
+    .featured-products .products{
+        grid-template-columns: 1fr ;
+        gap: 2rem;
+        text-align: center;
+    }
+    .update-info h3{
+        font-size: 20px;
+    }
+    .update-info h2{
+        font-size: 30px;
+    }
+    .update-info p{
+        font-size: 16px;
+        margin-bottom: 15px;
+        letter-spacing: 1px;
+    }
+    .launches-stat .launch-items h3{
+        font-size: 20px;
+        margin: 20px;
+    }
+    .launches-stat .launch-items h2{
+        font-size: 30px;
+        margin: 20px;
+    }
+    .stats{
+        flex-direction: column;
+    }
+    .btn {
+        font-size: 16px;
+        padding: 12px 30px;
+    }
+    .landing p{
+        font-size: 18px;
+        width: 90%;
+    }
+    .falcon-info .left-info p {
+        font-size: 18px;
+    }
+    .landing h2,
+    .section-tospace .dragon-human h2 {
+        font-size: 45px;
+    }
+    .landing h3,
+    .section-tospace .dragon-human h4 {
+        font-size: 16px;
+    }
+    .backtolaunch {
+        margin: 100px 0px 10px 30px;
+    }
+    .rewatch-info h3{
+        font-size: 20px;
+    }
+    .rewatch-info h2{
+        font-size: 35px;
+    }    
+}
+@media (max-width:366px) {
+    .section-mer .section-inner p {
+        font-size: 16px;
+        width: 250px;
+    }
+    .section-mer .section-inner .table h3 {
+        font-size: 16px;
+        padding: 10px;
+        margin: 15px 0;
+        letter-spacing: 1px;
+    }
+    .section-mer .section-inner {
+        max-width: 250px;
+    }
+    .section-tospace .dragon-human{
+        top: 100px;
+        right: 40px;
+    }
+    .section-ride .dragon-human{
+        top: 30px;
+        left: 5px;
+    }
+    .section-mars .dragon-human,
+    .section-satellite .dragon-human{
+        left: 40px;
+    }
+    .section-tospace .dragon-human  h2{
+        font-size: 40px;
+    }
+    .section-tospace .dragon-human  h4{
+        font-size: 16px;
+    }
+    .starship-info{
+        padding: 20px;
+    }
+    .starship-info p{
+        font-size: 15px;
+    }
+    .bg-spaceflight + .inner-section h3{
+        font-size: 50px;
+    }
+    .rideshare-stat-info {
+        gap: 3rem;
+        padding: 10px;
+    }
+    .falcon-info .left-info p {
+        font-size: 15px;
+    }
+}
