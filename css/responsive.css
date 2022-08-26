@@ -337,6 +337,12 @@
     .falcon-info .left-info p {
         font-size: 15px;
     }
+    .inner-section h3{
+        font-size: 40px;
+    }
 }
 @media (max-width:330px) {
+    .inner-section h3{
+        font-size: 30px;
+    }
 }

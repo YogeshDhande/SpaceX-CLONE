@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;500;600&display=swap');
 *,
 *::after,
 *::before{
@@ -8,7 +8,7 @@
     scroll-behavior: smooth;
 }
 body{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Archivo Narrow', sans-serif;
     background: #000;
     color: #fff;
 }
@@ -739,7 +739,7 @@ div.heading span{
     margin-bottom: 20px;
 }
 .section-mer .section-inner p{
-    font-size: 24px;
+    font-size: 20px;
     max-width: 500px;
     margin-bottom: 20px;
     font-weight: 100;
@@ -754,6 +754,7 @@ div.heading span{
     padding: 10px;
     margin: 15px 0;
     letter-spacing: 1px;
+    font-size: 17px;
 }
 .section-mer .section-inner .table h3 span{
     color: #555;
